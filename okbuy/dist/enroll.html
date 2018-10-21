@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/enroll.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/enroll.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+        <div class="tou1">
+                <div id="header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="logo_nav">
+                        <ul>
+                            <li><i></i>天天正品</li>
+                            <li><i></i>正品保障</li>
+                            <li><i></i>15天退换货</li>
+                            <li><i></i>评价晒订单有礼</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<!--    ============ mian ========================-->
+    <div class="main_bg">
+        <img src="images/login_bg.jpg" alt="">
+    </div>
+    <div id="login_part">
+        <div class="loginwapper">
+            <div class="case">
+
+
+                <div id="splist">
+                    <span class="wec_enroll">欢迎注册</span>
+                    <span class="login_eddol"><a href="Login.html">登录</a></span>
+                </div>
+
+                <div id="login_form">
+                    <p id=user_error></p>
+                    <div id="userlogin">
+                        <form action="#" id="loginform_user">
+                            <div class="login_name">
+                                    <input type="text" id="user" placeholder="请输入手机号"/>
+                                    <img src="images/vcodeicon.png" id="sj_vcode" alt="">
+                            </div>
+                            <label class="user_hint">
+                                <span>
+                                    <i></i>
+                                </span>
+                            </label>
+                            <div class="login_pwd">
+                                    <input type="password"  id="password" placeholder="请输入密码"/>
+                                    <img src="images/vcodeicon.png" id="pwd_vcode" alt="">
+                            </div>
+                            <label class="pwd_hint">
+                                    <span>
+                                            <i></i>
+                                    </span>
+                            </label>
+
+                            <div class="auth_code">
+                                <input type="text" placeholder="图形验证码" id="txyz">
+                                <img src="images/vcodeicon.png" id="tupian_vcode" alt="">
+
+                                <img id="getcode_img" width="100" src="http://www.okbuy.com/verify/getcode?time=1539335800">
+
+                            </div>
+
+                            <label class="auco_hint">
+                                    <span>
+                                            <i></i>
+                                    </span>
+                            </label>
+                            
+                        </form>
+                        <button id="btn">注册</button>
+                            <i class="forget_pwd">注册即视为同意<a href="">好乐买隐私协议</a></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<!--  ============== footer=============== -->
+<div id="footer">
+        Copyright © 2007-2018 OkBuy.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        天津好乐买信息技术有限公司&nbsp;&nbsp;津B2-20140020&nbsp;&nbsp;京公网安备&nbsp;110105006859
+</div>
+</body>
+</html>

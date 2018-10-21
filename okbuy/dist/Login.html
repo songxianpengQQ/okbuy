@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div class="tou1">
+    <div id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="logo_nav">
+            <ul>
+                <li><i></i>天天正品</li>
+                <li><i></i>正品保障</li>
+                <li><i></i>15天退换货</li>
+                <li><i></i>评价晒订单有礼</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--    ============ mian ========================-->
+    <div class="main_bg">
+        <img src="images/login_bg.jpg" alt="">
+    </div>
+    <div id="login_part">
+        <div class="loginwapper">
+            <div class="case">
+
+
+                <div id="splist">
+                    <span class="account active">账号登录</span>
+                    <span class="spborder">扫码登录</span>
+                </div>
+
+                <div id="login_form">
+
+                    <!-- ========手机登录============= -->
+                    <section id="content-form">
+                        <p id=user_error></p>
+                        <div id="userlogin">
+                            <form id="loginform_user">
+                                <div class="login_name">
+                                        <input type="text" id="user" placeholder="已验证手机/邮箱用户名"/>
+                                </div>
+                                <label class="user_hint">
+                                    <span></span>
+                                </label>
+                                <div class="login_pwd">
+                                        <input type="password"  id="password" placeholder="密码"/>
+                                </div>
+                                <label class="pwd_hint">
+                                        <span></span>
+                                </label>
+                                
+                            </form>
+                            <button id="btn">登录</button>
+                            <i class="forget_pwd">忘记密码？</i>
+                        </div>
+                    </section>
+                        <!-- ========手机登录============= -->
+                        <!-- ========扫码登录============= -->
+                    <section id="content_QRcode">
+                        <div class="qr_code">
+                            <img src="images/login_new_ewm.png" alt="" id="ewm">
+                            <img src="images/login_new_prompt.jpg" alt="" id="tishi">
+                        </div>
+                        <div class="scan_word">请使用好乐买APP扫码登录</div>
+                        <div class="scan_down">
+                                <div class="down">
+                                    <i class="downimg"></i>
+                                    下载好乐买APP
+                                    <div class="down_code">
+                                            <i class="down_after"></i>
+                                        <img class="endewm" src="http://0.js.al.okbuycdn.com/resources/images/v6/login/login_new_ewm.png" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </section>
+                        <!-- ========扫码登录============= -->
+                </div>
+
+
+                <div id="login_eoll">
+                    <div class="login_method">
+                        <ul>
+                            <li class="lg_1"><s></s></li>
+                            <li class="lg_2"><s></s></li>
+                            <li class="lg_3"><s></s></li>
+                            <li class="lg_4"><s></s></li>
+                            <li class="lg_5"><s class="bddf"></s></li>
+                        </ul>
+
+                        <div class="enroll">
+                            <i class="blt"></i>
+                            <span><a href="enroll.html">注册有惊喜</a></span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+<!--  ============== footer=============== -->
+<div id="footer">
+        Copyright © 2007-2018 OkBuy.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        天津好乐买信息技术有限公司&nbsp;&nbsp;津B2-20140020&nbsp;&nbsp;京公网安备&nbsp;110105006859
+</div>
+</body>
+</html>

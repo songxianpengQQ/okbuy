@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/Commonstyle.css">
+</head>
+
+<body>
+       <!-- advertising结束 -->
+       <div id="advertising">
+            <img src="images/guanggao_01.png" alt="" id="guang">
+            <i class="clear_atg"></i>
+        </div>
+    <!-- header开始 -->
+        <div id="header">
+            <!-- nav开始 -->
+            <div class="topnav_width">
+    
+                <div id="topnav">
+                    <nav>
+                    <span class="logined" style="display: none;">
+                        <a href="#" class="name" style="padding-right:0"></a>
+                        <a href="#" class="logout" style="padding-left:0">,退出</a>
+                    </span>
+                    <span class="unlogin">
+                            <a href="Login.html" rel="nofollow">登录</a>
+                            <i>|</i>
+                            <a href="enroll.html" rel="nofollow">注册</a>
+                    </span>
+                    <ul id="topnav_list">
+                        <li class="navinfo tl_1">
+                            <span>我的好乐买</span>
+                            <i class="topnav_bg"></i>
+                            <ul id="my_list">
+                                <li>
+                                        <span>我的好乐买</span>
+                                        <i class="topnav_bg"></i>
+                                </li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">我的收藏</a></li>
+                                <li><a href="#">我的优惠劵</a></li>
+                            </ul>
+                        </li>
+                        <li class="navinfo tl_2">
+                            <span>手机好乐买</span>
+                            <i class="topnav_bg"></i>
+                            <ul id="my_ewm">
+                                <li>
+                                        <span>手机好乐买</span>
+                                        <i class="topnav_bg"></i>
+                                </li>
+                                <li><img src="images/login_new_ewm.png" style="width:68px;height:68px" alt=""></li>
+                                <li>手机扫码下载</li>
+                            </ul>
+                        </li>
+                        <li class="navinfo tl_3">
+                                <span>关注好乐买</span>
+                                <i class="topnav_bg"></i>
+                                <ul id="wi_ewm">
+                                    <li>
+                                            <span>关注好乐买</span>
+                                            <i class="topnav_bg"></i>
+                                    </li>
+                                    <li><img src="images/login_new_ewm.png" style="width:68px;height:68px" alt=""></li>
+                                    <li>微信下载</li>
+                                </ul>
+                        </li>
+                        <li class="navinfo tl_4">
+                                <span>客户服务</span>
+                            <i class="topnav_bg"></i>
+                            <ul id="kehu_sever">
+                                    <li>
+                                        <span>客户服务</span>
+                                        <i class="topnav_bg"></i>
+                                    </li>
+                                    <li><a href="#">联系客服</a></li>
+                                    <li><a href="#">帮助中心</a></li>
+                                    <li><a href="#">意见建议</a></li>
+                            </ul>
+                        </li>
+                        <li class="navinfo" id="lastnav">
+                                <span>公告</span>
+                                <i class="topnav_bg"></i>
+                                <ul id="gonggao">
+                                    <li>
+                                        <a href="#" title="">关于填写订单收件人信息的温馨提示</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">关于国庆期间客户服务调整的公告</a>
+                                    </li>
+                                    <li>
+                                         <a href="#" title="">好乐买运费标准调整公告</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">常见问题FAQ</a>
+                                    </li>
+                                </ul>
+                        </li>
+                    </ul>
+                </nav>
+                </div>          
+            </div>
+            <!-- logo开始 -->
+            <div class="main_logo">
+                <div id="neutral_zone">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="nz_input">
+                        <u class="shang">
+                            <input class="search_big" type="text" placeholder="运动鲜货新品上架 速戳~"><button class="iconfont icon-fangdajing">搜索</button>
+                        </u>
+                        <u class="xia">
+                            <ul>
+                                <li>卫衣</li>
+                                <li>卡骆驰</li>
+                                <li>斯凯奇</li>
+                                <li>百图</li>
+                                <li>Adidas</li>
+                                <li>Zara入驻</li>
+                                <li>BOY LONDON新品上线</li>
+                            </ul>
+                        </u>
+                    </div>
+    
+                    <div id="Cart">
+                        <a href="http://localhost:8888/cart.html">
+                            <span>
+                                去购物车结算(<i class="nub_biao">0</i>)
+                                <ul class="tb_shopping">
+                                    <!-- <li>
+                                        <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp" alt="">
+                                        <h3>我是标题</h3>
+                                        <strong>100</strong>
+                                    </li> -->
+                                </ul>
+                            </span>
+                        </a>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+            <!-- endnav -->
+            <div class="end_nav">
+                <div id="endnav">
+                    <ul id="endnav_list">
+                        <li class="habsli"><a href="http://localhost:8888/index.html" class="index">首页</a></li>
+                        <li class="habsli" id="two"><a href="http://localhost:8888/list.html" class="heibg"></a></li>
+                        <li class="habsli active">
+                            <a href="#">运动生活</a>
+                            <div id="yundonglife">
+                                    <s class="nnavarr" style="left: 264px;">◆</s>
+                                <!-- 1 -->
+                                <div id="life_left">
+                                    <h3 class="otitle">品类导购</h3>
+                                    <div class="yd_shoes">
+                                        <h4>运动鞋</h4>
+                                        <s class="context">
+                                                <a href="#" target="_blank">跑步鞋</a>
+                                                <a href="#" target="_blank">复古鞋</a>                    
+                                                <a href="#" target="_blank">休闲鞋</a>
+                                                <a href="#" target="_blank">帆布鞋</a>
+                                                <a href="#" target="_blank">板鞋</a>
+                                                <a href="#" target="_blank">运动生活系列</a>
+                                                <a href="#" target="_blank">滑板鞋</a>
+                                                <a href="#" target="_blank">篮球鞋</a>
+                                                <a href="#" target="_blank">凉鞋/凉拖</a>
+                                                <a href="#" target="_blank">健步鞋</a>
+                                                <a href="#" target="_blank">足球鞋</a>
+                                                <a href="#" target="_blank">羽毛球鞋</a>
+                                                <a href="#" target="_blank">网球鞋</a>
+                                                <a href="#" target="_blank">乒乓球鞋</a>
+                                                
+                                                
+                                        </s>
+                                    </div>
+                                    <div class="yd_cloth">
+                                        <h4>运动衣</h4>
+                                        <s class="context">								
+                                                <a class="cateitem" href="#" target="_blank">夹克/外套</a>
+                                                <a class="cateitem" href="#" target="_blank">卫衣</a>
+                                                <a class="cateitem" href="#" target="_blank">T恤</a>
+                                                <a class="cateitem" href="#" target="_blank">POLO</a>
+                                                <a class="cateitem" href="#" target="_blank">胸衣</a>
+                                                <a class="cateitem" href="#" target="_blank">背心</a>
+                                                <a class="cateitem" href="#" target="_blank">长裤</a>
+                                                <a class="cateitem" href="#" target="_blank">短裤</a>
+                                                <a class="cateitem" href="#" target="_blank">裙装</a>
+                                                <a class="cateitem" href="#" target="_blank">套装</a>
+                                                <a class="cateitem" href="#" target="_blank">马甲</a>
+                                                <a class="cateitem" href="#" target="_blank">棉服</a>
+                                                <a class="cateitem" href="#" target="_blank">羽绒服</a>
+                                            
+                                                
+                                        </s>
+                                    </div>
+                                    <div class="childrencloth">
+                                        <h4>儿童专区</h4>
+                                        <s class="context">
+                                                <a href="#" target="_blank">运动鞋</a>
+                                                <a href="#" target="_blank">休闲鞋</a>                    
+                                                <a href="#" target="_blank">跑步鞋</a>
+                                                <a href="#" target="_blank">篮球鞋</a>
+                                                <a href="#" target="_blank">童靴</a>
+                                                <a href="#" target="_blank">童装</a>
+                                        </s>
+                                    </div>
+                                    <div class="yd_around">
+                                        <h4>运动周边</h4>
+                                        <s class="context">
+                                                <a href=#" target="_blank">袜子</a>
+                                                <a href="#" target="_blank">帽子</a> 
+                                                <a href="#" target="_blank">护具</a>
+                                                <a href="#" target="_blank">球类</a>
+                                                <a href="#" target="_blank">泳具</a>
+                                                <a href="#" target="_blank">球拍</a>
+                                                <a href="#" target="_blank">运动休闲包</a>
+                                            
+                                        </s>
+                                    </div>
+                                        
+                                </div>
+                                <!-- 2 -->
+                                <div id="life_main">
+                                    <h3 class="otitle">运动导购</h3>
+                                    <div class="yd_qiuda">
+                                        <h4>魅力秋搭</h4>
+                                        <ul>
+                                            <li>内衣长T</li>
+                                            <li>连帽卫衣</li>
+                                            <li>收腿运动裤</li>
+                                            <li>贝壳头</li>
+                                            <li>AIR MAX</li>
+                                            <li>最新鞋款</li>
+                                            <li>棒球帽</li>
+                                        </ul>
+                                    </div>
+                                    <div class="yd_run">
+                                        <h4>运动跑步</h4>
+                                        <ul>
+                                            <li>跑步鞋品</li>
+                                            <li>BOOST</li>
+                                            <li>ZOOM</li>
+                                            <li>FREE</li>
+                                            <li>Lunar</li>
+                                            <li>李宁弧</li>
+                                            <li>李宁云</li>
+                                        </ul>
+                                        <ul>
+                                            <li>T桖/POLO</li>
+                                            <li>夹克/外套</li>
+                                            <li>胸衣</li>
+                                            <li>保暖马甲</li>
+                                        </ul>
+                                        <ul>
+                                            <li>跑步裤装</li>
+                                            <li>长裤</li>
+                                            <li>短裤</li>
+                                            <li>紧身/打底裤</li>
+                                        </ul>
+                                    </div>
+                                    <div class="yd_ball">
+                                        <h4>球类运动</h4>
+                                        <ul>
+                                            <li>篮球系列</li>
+                                            <li>球鞋</li>
+                                            <li>背心</li>
+                                            <li>短裤</li>
+                                            <li>套装</li>
+                                            <li>护具</li>
+                                        </ul>
+                                        <ul>
+                                            <li>足球系列</li>
+                                            <li>球鞋</li>
+                                            <li>服装</li>
+                                            <li>配件</li>
+                                            <li>护具</li>
+                                        </ul>
+                                        <ul>
+                                            <li>羽毛球系列</li>
+                                            <li>球鞋</li>
+                                            <li>服装</li>
+                                            <li>球包</li>
+                                            <li>球拍</li>
+                                        </ul>
+                                    </div>
+                                    <div class="yd_jianshen">
+                                        <h4>健身/瑜伽/游泳</h4>
+                                        <ul>
+                                            <li>
+                                                <li>胸衣</li>
+                                                <li>紧身裤（长）</li>
+                                                <li>紧身裤（中/短）</li>
+                                                <li>综训鞋</li>
+                                                <li>瑜伽服</li>
+                                                <li>泳装</li>
+                                                <li>泳具</li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div id="life_right">
+                                    <h3 class="otitle">品牌导购</h3>
+                                    <img src="images/pinpaidaogou.jpg" style="width:242px;height:329px;border:none" alt="">
+                                </div>
+    
+                            </div>
+                        </li>
+                        <li class="habsli xxcolth">
+                            <a href="#">休闲服饰</a>
+                            <div id="xiuxian">
+                                    <s class="nnavarr" style="left: 364px;">◆</s>
+                                <!-- 2.1 -->
+                                <div class="jingpin">
+                                    <h3>精品服饰</h3>
+                                    <div class="man_cloth">
+                                        <h4>男装</h4>
+                                        <ul>
+                                            <li>男衬衫</li>
+                                            <li>男T桖</li>
+                                            <li>男POLO</li>
+                                            <li>男卫衣</li>
+                                            <li>男夹克</li>
+                                        </ul>
+                                        <ul>
+                                            <li>男针织</li>
+                                            <li>男西服</li>
+                                            <li>男休闲装</li>
+                                            <li>男牛仔裤</li>
+                                            <li>男短裤</li>
+                                        </ul>
+                                    </div>
+                                    <div class="womancl">
+                                        <h4>女装</h4>
+                                        <ul>
+                                            <li>女T桖</li>
+                                            <li>女衬衫</li>
+                                            <li>女针织衫</li>
+                                            <li>女毛衣</li>
+                                            <li>女外套</li>
+                                            <li>女大衣</li>
+                                        </ul>
+                                        <ul>
+                                            <li>女西服</li>
+                                            <li>连衣裙</li>
+                                            <li>半截袖</li>
+                                            <li>女休闲裤</li>
+                                        </ul>
+                                    </div>
+                                    <div class="huwai">
+                                        <h4>户外</h4>
+                                        <ul>
+                                            <li>T桖</li>
+                                            <li>Polo衫</li>
+                                            <li>衬衫</li>
+                                            <li>冲锋衣</li>
+                                            <li>夹克外套</li>
+                                            <li>卫衣</li>
+                                        </ul>
+                                        <ul>
+                                            <li>皮肤包</li>
+                                            <li>三合一</li>
+                                            <li>休闲裤</li>
+                                            <li>冲锋裤</li>
+                                        </ul>
+                                    </div> 
+                                </div>
+    
+                                <!-- 2.2 -->
+                                <div class="xiebao">
+                                        <h3>鞋靴包配</h3>
+                                        <div class="xiexue">
+                                            <h4>鞋靴</h4>
+                                            <ul>
+                                                <li>休闲鞋</li>
+                                                <li>徒步鞋</li>
+                                                <li>工装鞋</li>
+                                                <li>登山鞋</li>
+                                                <li>越野跑鞋</li>
+                                            </ul>
+                                            <ul>
+                                                    <li>凉鞋</li>
+                                                    <li>涉溪鞋</li>
+                                                    <li>冬靴</li>
+                                                    <li>御寒靴</li>
+                                                    <li>户外休闲鞋</li>
+                                                </ul>
+                                        </div>
+                                        <div class="baopei">
+                                            <h4>包配</h4>
+                                            <ul>
+                                                <li>户外包</li>
+                                                <li>休闲鞋</li>
+                                                <li>帽子</li>
+                                                <li>手套</li>
+                                                <li>帐篷</li>
+                                                <li>睡袋</li>
+                                                <li>垫子</li>
+                                            </ul>
+                                        </div>
+                                        <div class="jiaju">
+                                            <h4>家居</h4>
+                                            <ul>
+                                                <li>袜子</li>
+                                                <li>文胸</li>
+                                                <li>内裤</li>
+                                                <li>家居服</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                <!-- 2.3 -->
+    
+                                <div class="pinpai2">
+                                        <h3 class="otitle">品牌导购</h3>
+                                        <img src="images/pinpai2.1.jpg" style="width:242px;height:329px;border:none" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="habsli nannvhai">
+                            <a href="#">男女名鞋</a>
+                            <!-- 3 -->
+                            <div id="people_shoes">
+                                    <s class="nnavarr" style="left: 464px;">◆</s>
+                                <!-- 3.1 -->
+                                <div class="men_shoes">
+                                    <h3>男鞋</h3>
+                                    <div class="spring">
+                                        <h4>春秋款</h4>
+                                        <ul>
+                                            <li>休闲鞋</li>
+                                            <li>正装鞋</li>
+                                            <li>商务鞋</li>
+                                            <li>工装鞋</li>
+                                            <li>帆布鞋</li>
+                                            <li>板鞋</li>
+                                        </ul>
+                                        <ul>
+                                            <li>户外鞋</li>
+                                            <li>布洛克鞋</li>
+                                            <li>伐木鞋</li>
+                                            <li>豆豆乐福鞋</li>
+                                        </ul>
+                                    </div>
+                                    <div class="summer_shoes">
+                                        <h4>夏季款</h4>
+                                        <ul>
+                                            <li>洞洞鞋</li>
+                                            <li>冲孔鞋</li>
+                                            <li>皮凉鞋</li>
+                                            <li>沙滩鞋</li>
+                                            <li>人字拖</li>
+                                            <li>拖鞋</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dongji">
+                                        <h4>冬季款</h4>
+                                        <ul>
+                                            <li>休闲鞋</li>
+                                            <li>工装鞋</li>
+                                            <li>马丁鞋</li>
+                                            <li>雪地靴</li>
+                                            <li>时装靴</li>
+                                            <li>棉鞋</li><br/>
+                                            <li>高帮板鞋</li>
+                                        </ul>
+                                    </div>
+    
+                                </div>
+                                <!-- 3.2 -->
+                                <div class="wm_shoes">
+                                    <h3>女鞋</h3>
+                                    <div class="spring2">
+                                        <h4>春秋款</h4>
+                                        <ul>
+                                            <li>休闲鞋</li>
+                                            <li>满帮女鞋</li>
+                                            <li>户外鞋</li>
+                                            <li>帆布鞋</li>
+                                            <li>妈妈鞋</li>
+                                        </ul>
+                                        <ul>
+                                            <li>浅口鞋</li>
+                                            <li>厚底鞋</li>
+                                            <li>乐福鞋</li>
+                                        </ul>
+                                    </div>
+                                    <div class="summer_shoes2">
+                                        <h4>夏季款</h4>
+                                        <ul>
+                                            <li>全凉鞋</li>
+                                            <li>鱼塘鞋</li>
+                                            <li>女凉拖鞋</li>
+                                            <li>人字鞋</li>
+                                            <li>平底凉鞋</li>
+                                            <li>浅口单鞋</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dongji2">
+                                        <h4>冬季款</h4>
+                                        <ul>
+                                            <li>短靴</li>
+                                            <li>中筒靴</li>
+                                            <li>高筒靴</li>
+                                            <li>雪地靴</li>
+                                            <li>内增高</li>
+                                            <li>马丁鞋</li><br/>
+                                            <li>及踝靴鞋</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- 3.3 -->
+                                <div class="ppdg">
+                                    <h3>品牌导购</h3>
+                                    <img src="images/ppdg3 (1).jpg" style="width:242px;height:329px;border:none"  alt="">
+                                </div>
+                            
+                            
+                            </div>
+                        </li>
+                        <li class="habsli wg_lists" id="world">
+                            <a href="#">
+                                <img src="http://i.okaybuy.cn/images/multipic/new/201701/7d/7de29d4226bbf3855eb7eca34a680cc5.gif" width="38" height="38">
+                                全球购
+                            </a>
+                            <!-- 4 -->
+                            <div id="word_gou">
+                                    <s class="nnavarr" style="left: 590px;">◆</s>
+                                    <!-- 4.1 -->
+                                    <div class="often">
+                                        <h3>常用</h3>
+                                        <ul>
+                                            <li>查看全部</li>
+                                            <li>300款上新</li>
+                                            <li>千元尖货</li>
+                                            <li>清仓</li>
+                                        </ul>
+                                        <div class="chaopai">
+                                            <h4>潮牌</h4>
+                                            <ul>
+                                                <li>ASSC</li>
+                                                <li>BOY LONDON</li>
+                                                <li>CHAMPION</li>
+                                                <li>PALLADIUM</li>
+                                            </ul>
+                                        </div>
+                                        <div class="fushi">
+                                            <H4>服饰</H4>
+                                            <ul>
+                                                <li>T恤</li>
+                                                <li>打底衫</li>
+                                                <li>POLO</li>
+                                                <li>衬衫</li>
+                                                <li>卫衣帽衫</li>
+                                                <li>毛衫</li>
+                                                <li>夹克</li>
+                                            </ul>
+                                            <ul>
+                                                <li>裤袋</li>
+                                                <li>内衣</li>
+                                                <li>健身</li>
+                                                <li>棒球帽</li>
+                                                <li>腰带</li>
+                                                <li>手表</li>
+                                            </ul>
+                                        </div>
+    
+                                        <div class="bottes">
+                                            <h4>鞋靴</h4>
+                                            <ul>
+                                                <li>AIR</li>
+                                                <li>JORDAN</li>
+                                                <li>NIKE</li>
+                                                <li>小白鞋</li>
+                                                <li>贝壳头</li>
+                                                <li>Yeezy</li>
+                                            </ul>
+                                            <ul>
+                                                <li>TUBULAR</li>
+                                                <li>AF1</li>
+                                                <li>潮鞋</li>
+                                                <li>帆布鞋</li>
+                                                <li>板鞋</li>
+                                                <li>黄靴</li>
+                                                <li>库里</li>
+                                            </ul>
+                                            <ul>
+                                                <li>高帮鞋</li>
+                                                <li>澡堂拖</li>
+                                                <li>休闲鞋</li>
+                                                <li>女鞋</li>
+                                                <li>童鞋</li>
+                                            </ul>
+                                        </div>
+                                        <div class="bag">
+                                            <h4>包袋</h4>
+                                            <ul>
+                                                <li>女包</li>
+                                                <li>男包</li>
+                                                <li>低于350</li>
+                                                <li>COACH</li>
+                                            </ul>
+                                        </div>
+    
+                                    </div>
+                           
+                                    <!-- 4.2 -->
+                                    <div class="activity">
+                                        <h3>活动</h3>
+                                        <img src="images/zhongda.jpg"  width="523" height="345">
+                                    </div>
+                                    <!-- 4.3 -->
+                                    <div class="sign">
+                                        <h3>品牌</h3>
+                                        <img src="images/ppdg3 (1).jpg" style="width:242px;height:349px" alt="">
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="habsli"><a href="#">家居包配</a></li>
+                    </ul>
+                </div>
+             </div>
+    
+        </div>
+            <!-- ========header结束=================  -->
+
+
+    <!-- 内容区 -->
+    <div class="contentwrap">
+        <div class="contentsrc">
+            <div class="info">
+                <div class="imginfo">
+                    <div class="imgbox">
+                        
+                        <div id="small">
+                            <div id="mo"></div>
+                            <img src="" id="sa">
+                            <div id="filter"></div>
+                        </div>
+                        <div id="maximgbox">
+                            
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="detailinfo">
+                    <div class="xqh3">
+                        <h3></h3>
+                    </div>
+                    <div class="pricebox">
+                        <p>
+                            <span class="titqu">价格：</span>
+                            <span class="price"></span>
+                            <span class="score">预期获得积分<i>45</i>,实际获得积分以提交订单时为准</span>
+                        </p>
+                    </div>
+                    <div class="postage">
+                        <div>
+                            <span class="titqu">配送至：</span>
+                            <div>
+                                <span>浙江</span>
+                                <span>杭州市</span>
+                                <span>杭州城区</span>
+                                <i></i>
+                            </div>
+                            <span>有货</span>
+                            <span class="postfee">运费：5.00 满 50.00 元免运费</span>
+                        </div>
+                        <p>由 好乐买商城 发货并提供售后服务，支持货到付款、开箱验机。</p>
+                    </div>
+
+                    <div class="number">
+                        <div>
+                            <span class="titqu">数量：</span>
+                            <div>
+                                <a class="reduce">-</a>
+                                <input type="text" disabled value="1" class="goodnum">
+                                <a class="add">+</a>
+                            </div>
+                            <span>库存（769件）</span>
+                        </div>
+                        <p>
+                            <span class="titqu"></span>
+                            <input type="button" value="加入购物车" class="addcart">
+                            <input type="button" value="立即购买" class="buynow">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 推荐 -->
+            <div class="recommend">
+                <div class="title">热卖推荐</div>
+                <ul id="recommendList">
+                    <!-- 渲染数据 -->
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 底部 -->
+        <!-- 回顶部 -->
+        <div class="wrap">
+                <div id="goTop" class="">
+                    <img src="images/jiantou.png">
+                </div>
+        </div>
+<!-- 底部 -->
+<div class="foot">
+     <div class="foot_1">
+        <div class="foot-content">
+
+            <div>
+                <div class="code">
+                    <div>
+                        <img src="http://0.js.al.okbuycdn.com/resources/images/v6/common/code_client.png">
+                        <p>好乐买手机客户端</p>
+                    </div>
+                    <div>
+                        <img src="http://0.js.al.okbuycdn.com/resources/images/v6/common/code_public.jpg">
+                        <p>好乐买微信公众号</p>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <p class="title">购物指南</p>
+                        <p><a>购物流程</a></p>
+                        <p><a>订购方式</a></p>
+                        <p><a>常见问题</a></p>
+                    </li>
+                    <li>
+                        <p class="title">配送方式</p>
+                        <p><a>快递配送</a></p>
+                        <p><a>配送时间</a></p>
+                    </li>
+                    <li>
+                        <p class="title">支付方式</p>
+                        <p><a>支付方式</a></p>
+                        <p><a>代金券</a></p>
+                    </li>
+                    <li>
+                        <p class="title">售后服务</p>
+                        <p><a href="">退换货政策</a></p>
+                        <p><a>退款说明</a></p>
+                        <p><a>联系客服</a></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <div>
+                    <img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/okbuy1-03.png" alt="支付宝特约商家">
+                    <img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/okbuy1-05.png" alt="4月29日首都网络安全日">
+                    <img src="http://i.okaybuy.cn/images/multipic/new/201508/90/902c39b52902b3bd4ab500babad4e14a.png"
+                        alt="经营性网站备案中心">
+                    <img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/bjwj.jpg" alt="朝阳网警">
+                </div>
+                <p>
+                    <a href="">公司介绍</a> |
+                    <a href="">加入我们</a> |
+                    <a href="">联系我们</a> |
+                    <a href="">友情链接</a>
+                </p>
+            </div>
+        </div>
+    </div>  
+        <div class="f-bottom">
+            <p>
+                天津好乐买信息技术有限公司 Copyright © 2007-2018 OkBuy.com All Rights Reserved <a href="">津ICP备16005872号-1</a>
+                 京公网安备110105006859   客服电话：400-8610-400
+            </p>
+        </div>
+    
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/ajax.js"></script>
+<!-- <script src="js/index.js"></script> -->
+<script src="js/common.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/jquery.cookie.js"></script>

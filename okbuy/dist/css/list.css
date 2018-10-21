@@ -1,0 +1,471 @@
+.contentwrap {
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.selectbox {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.path {
+  background: #fbfbfb;
+  border-bottom: 1px solid #ececec;
+  padding: 15px 15px 15px 30px;
+}
+
+.selectcontent {
+  color: #333;
+  background: #fff;
+}
+
+.selectcontent .section-item {
+  overflow: hidden;
+  border-bottom: 1px dotted #c8c8c8;
+}
+
+.selectcontent .section-item > h5 {
+  float: left;
+  width: 100px;
+  height: 56px;
+  text-align: center;
+  background: #fbfbfb;
+  padding-top: 12px;
+}
+
+.selectcontent .section-item > div {
+  float: left;
+  width: 1078px;
+  height: 56px;
+  overflow: hidden;
+  padding: 8px 0 4px;
+}
+
+.selectcontent .section-item > div .all {
+  float: left;
+  width: 40px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 0 20px;
+  background: #d70057;
+  cursor: pointer;
+}
+
+.selectcontent .section-item > div > ul {
+  float: left;
+  width: 890px;
+}
+
+.selectcontent .section-item > div > ul li {
+  float: left;
+  width: 115px;
+  padding: 3px 6px 12px 6px;
+}
+
+.selectcontent .section-item > div .more {
+  float: right;
+}
+
+.selectcontent .section-item > div .more > span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/common/section-tigger.png) -2px -25px no-repeat;
+}
+
+.selectcontent .section-item a {
+  color: inherit;
+}
+
+.selectcontent .selectcolor {
+  height: 46px;
+}
+
+.selectcontent .selectcolor .color li {
+  width: 23px;
+  padding: 0;
+  margin-right: 4px;
+}
+
+.selectcontent .selectcolor .color a {
+  display: block;
+  width: 23px;
+  height: 22px;
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat 0 0;
+}
+
+.selectcontent .selectcolor .color .gray {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -59px 0;
+}
+
+.selectcontent .selectcolor .color .blue {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -117px -34px;
+}
+
+.selectcontent .selectcolor .color .darkblue {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -260px -34px;
+}
+
+.selectcontent .selectcolor .color .white {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -88px 0;
+}
+
+.selectcontent .selectcolor .color .red {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -30px -34px;
+}
+
+.selectcontent .selectcolor .color .green {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -146px -34px;
+}
+
+.selectcontent .selectcolor .color .armygreen {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -287px 0;
+}
+
+.selectcontent .selectcolor .color .yellow {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -117px 0;
+}
+
+.selectcontent .selectcolor .color .mixcolor {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -175px -34px;
+}
+
+.selectcontent .selectcolor .color .orange {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -175px 0;
+}
+
+.selectcontent .selectcolor .color .purple {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -88px -34px;
+}
+
+.selectcontent .selectcolor .color .khaki {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -204px 0;
+}
+
+.selectcontent .selectcolor .color .pink {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -59px -34px;
+}
+
+.selectcontent .selectcolor .color .naturals {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -260px 0;
+}
+
+.selectcontent .selectcolor .color .redbrown {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -204px -34px;
+}
+
+.selectcontent .selectcolor .color .brown {
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat -1px -34px;
+}
+
+.selectcontent .selectprice {
+  height: 46px;
+}
+
+.selectcontent .selectprice > div {
+  padding-left: 20px;
+}
+
+.selectcontent .selectprice > div > div {
+  float: left;
+  padding-left: 10px;
+  border: 1px solid #ececec;
+}
+
+.selectcontent .selectprice > div > div span {
+  float: left;
+  width: 12xp;
+  height: 26px;
+  color: #999;
+  line-height: 26px;
+}
+
+.selectcontent .selectprice > div > div input {
+  width: 44px;
+  height: 26px;
+  border: none;
+  line-height: 26px;
+  margin-left: 4px;
+}
+
+.selectcontent .selectprice > div > span {
+  float: left;
+  line-height: 26px;
+  margin: 0 10px;
+}
+
+.selectcontent .selectprice > div > a {
+  float: left;
+  width: 68px;
+  height: 28px;
+  margin-left: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #656668;
+  background: #ffe1ed;
+}
+
+.moreselect {
+  width: 1200px;
+  border-top: 6px solid #e9e9e9;
+}
+
+.moreselect > a {
+  display: block;
+  width: 100px;
+  height: 24px;
+  line-height: 20px;
+  margin: 0 auto;
+  background: #e9e9e9;
+  color: #666;
+  text-align: center;
+  margin-top: -1px;
+}
+
+.moreselect > a > span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+  background: url(http://0.js.al.okbuycdn.com/resources/images/v6/common/section-tigger.png) -30px -25px no-repeat;
+}
+
+.list {
+  width: 1200px;
+  margin: 20px auto 0;
+  padding-bottom: 30px;
+}
+
+.type {
+  height: 38px;
+  border: 1px solid #d9d9d9;
+}
+
+.type .sort {
+  float: left;
+}
+
+.type .sort ul li {
+  position: relative;
+  top: 0;
+  z-index: 10;
+  float: left;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.type .sort ul li a {
+  float: left;
+  width: 80px;
+  height: 38px;
+  color: inherit;
+  text-align: center;
+  line-height: 38px;
+}
+
+.type .sort ul .active {
+  background: #fff;
+  border-bottom-color: #fff;
+  color: #d70057;
+}
+
+.type .page {
+  float: right;
+  line-height: 40px;
+}
+
+.type .page > p {
+  float: left;
+  margin-right: 40px;
+}
+
+.type .page > div {
+  float: right;
+  padding-right: 20px;
+}
+
+.type .page .red {
+  color: #d70057;
+}
+
+.prolist {
+  padding-top: 20px;
+  background: #fff;
+}
+
+.prolist > ul {
+  overflow: hidden;
+  padding-left: 19px;
+}
+
+.prolist .gl-item{
+  float: left;
+  width: 270px;
+  height: 360px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.gl-item .pdImgB{
+  width: 270px;
+  height: 270px;
+}
+
+.prolist > ul > li:hover {
+  border-color: #e6e6e6;
+}
+.prolist .gl-name a{
+  padding-left:10px; 
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  color: #666;
+  font-family: 'Microsoft Yahei';
+  font-size: 12px;
+}
+.gl-price {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  line-height: 20px;
+  color: #d70057;
+  font-family: 'Microsoft Yahei';
+  font-size: 12px;}
+
+.gl-sale-info {
+    height: 17px;
+    line-height: 17px;
+    padding-right: 7px;
+    margin: 0 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    color: #666;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+}
+
+.gl-sale-info .sale-tag {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 0 9px;
+  background-color: #fe3f72;
+  color: #fff;
+}
+
+.gl-price .okprice, .gl-price .flawedprice {
+  font-family: 'Verdana';
+  font-size: 18px;
+  position: relative;
+  top: 1px;
+}
+
+.market-price{
+  text-decoration: line-through;
+  color: #999;
+}
+.prolist > ul > li > a > img {
+  float: left;
+  width: 220px;
+  height: 220px;
+}
+
+.prolist > ul > li > a .title {
+  clear: both;
+  height: 26px;
+  color: #666;
+}
+
+.prolist > ul > li > a .price {
+  color: #d70057;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.prolist > ul > li .act {
+  padding-bottom: 20px;
+}
+
+.prolist > ul > li .act span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #4d84c8;
+  border: 1px solid #BDD2E7;
+  cursor: pointer;
+}
+
+.prolist > ul > li .act span:hover {
+  color: #fff;
+  background: #d70057;
+  border-color: #d70057;
+}
+
+.prolist > ul > li .act .buy {
+  width: 84px;
+  margin-right: 4px;
+}
+
+.prolist > ul > li .act .addcart {
+  width: 122px;
+}
+
+.pagejump {
+  clear: both;
+  padding: 30px 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+.pagejump > ul {
+  float: right;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.pagejump > ul li {
+  float: left;
+  color: #000;
+  text-align: center;
+}
+
+.pagejump > ul li .btn {
+  display: inline-block;
+  padding: 0 11px;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pagejump > ul li > span {
+  margin: 0 10px;
+}
+
+.pagejump > ul li .inpagenum {
+  width: 36px;
+  height: 31px;
+  text-align: center;
+}
+
+.pagejump > ul li .active {
+  color: #c8c8c8;
+  background: #0066c2;
+}
+
+.pagejump > ul li .unableclick {
+  color: #c8c8c8;
+  background: #efefef;
+  cursor: default;
+}

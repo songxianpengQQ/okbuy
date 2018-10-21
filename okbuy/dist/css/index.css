@@ -1,0 +1,286 @@
+/* =============== */
+
+/* 轮播图 */
+#slideshow{
+    height: 350px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.pvpad{
+    width: 100%;
+    height: 315px;
+    background: #F4F4F4;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 315px;
+
+  }
+  .brand {
+    height: 315px;
+    background: #f5f5f5;
+  }
+  
+ .brandin {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .brandin > a {
+    float: left;
+    width: 100px;
+    height: 64px;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .brand .brandin > a img {
+    margin-top: 7px;
+  }
+  
+  .pro {
+    width: 100%;
+  }
+  
+  .pro > img {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .probox1 {
+    margin-top: 30px;
+  }
+  
+  .probox1 > ul {
+    width: 1210px;
+    overflow: hidden;
+  }
+  
+  .probox1 > ul > li {
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    border: 1px solid #e9e7ea;
+  }
+  
+  .probox1 > ul > li > img {
+    width: 593px;
+    height: 208px;
+  }
+  
+  .probox1 > ul > li > a > span {
+    position: absolute;
+    left: 0;
+    width: 200px;
+  }
+  
+  .probox1 > ul > li .tit1 {
+    top: 76px;
+  }
+  
+  .probox1 > ul > li .tit2 {
+    top: 94px;
+  }
+  
+  .probox1 > ul > li .tit3 {
+    top: 144px;
+    color: #d70057;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .probox1 > ul > li:hover {
+    border-color: #d70057;
+  }
+  
+  .date {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 200px;
+    font-size: 12px;
+  }
+  
+  .date > span {
+    color: #d70057;
+  }
+  
+  .probox2 > ul {
+    width: 1215px;
+    overflow: hidden;
+  }
+  
+  .probox2 > ul > li {
+    float: left;
+    position: relative;
+    text-align: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #e9e7ea;
+  }
+  
+  .probox2 > ul > li > img {
+    width: 388px;
+    height: 328px;
+  }
+  
+  .probox2 > ul > li > a > p {
+    left: 20px;
+  }
+  
+  .probox2 > ul > li .date {
+    bottom: 20px;
+  }
+  
+  .probox2 > ul > li .tit {
+    position: absolute;
+    bottom: 50px;
+    width: 250px;
+    font-size: 18px;
+  }
+  
+  .probox2 > ul > li .price {
+    color: #d70057;
+  }
+  
+  .probox2 > ul > li:hover {
+    border-color: #d70057;
+  }
+.w1200{
+    width: 100%;
+    height: 150px;
+} 
+.tuad{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+}   
+
+/* =============商品渲染============== */
+.merchandise{
+    overflow-x: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.merchandise ul{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: left;
+    font-style: normal;
+}
+.merchandise li{
+    width: 595px;
+    height: 210px;
+    position: relative;
+    float: left;
+    /* margin:0 5px 10px 5px; */
+    margin-right: 5px;
+        margin-bottom: 10px;
+}
+/* .merchandise #box{   float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        } */
+.merchandise #box .tit1{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 76px;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    text-align: center;
+}
+.merchandise #box .tit2{ 
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 94px;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    text-align: center;
+}
+.merchandise #box .tit3{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 144px;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    text-align: center;
+    color: #d70057;
+    font-size: 20px;
+    font-weight: bold;
+}
+.daotime{
+    position: absolute;
+    z-index: 2;
+    left: 35px;
+    bottom: 10px;
+    color: #666;
+}
+
+
+.zhong_gg{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+}
+.sp_2{
+    width: 1200px;
+    height: 1730px;
+    margin: 0 auto;
+}
+#xszk li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: "Microsoft YaHei";
+    border: 1px solid #e9e7ea;
+    width: 385px;
+    height: 329px;
+    display: block;
+    position: relative;
+}
+#xszk .tit{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    bottom: 50px;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    width: 250px;
+    text-align: left;
+    font-size: 18px;
+}
+#xszk p .tstitle{
+    color: #d70057;
+    font-weight: bold;
+
+}
+#xszk .daotime2{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    bottom: 20px;
+    color: #666;
+    width: 154px;
+    height: 16px;
+    font-size: 12px;
+}

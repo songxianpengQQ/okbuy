@@ -1,0 +1,12 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,hr,input,textarea,button,option,fieldset,legend,th,td,header,li{margin:0;padding:0;}
+body{font:12px "微软雅黑"; background: #ffffff;color: #323232;}
+a{text-decoration:none;}
+li{list-style:none;}
+a{outline:none;border:none;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weig:normal;}
+i,em{font-style:normal;}
+.clear:after{content:" "; display: block; clear: both; height: 0; visibility: hidden;}
+.clear{zoom:1;}
+table{border-collapse: collapse;}
+*{box-sizing:border-box;}
